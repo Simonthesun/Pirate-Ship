@@ -9,7 +9,7 @@ import vessel.*;
 public class PirateShip {
     
     public static void main(String[] args) {
-	Vessel boat = new Vessel("Wench Mobile", 169, 4, 101);
+	Vessel boat = new Vessel("Wench Mobile", 169, 4, 101, 67);
 	
     }
 }
