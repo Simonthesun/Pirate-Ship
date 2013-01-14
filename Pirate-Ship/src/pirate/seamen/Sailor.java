@@ -26,7 +26,7 @@ public class Sailor {
 	    sentence = Vernacularrrgh.SENTENCES[(int)(Math.random() * Vernacularrrgh.SENTENCES.length)];
 	    for(int i = 0; i < Vernacularrrgh.PARTS_OF_SPEECH.length; i++){
 		while(sentence.indexOf(name) > -1){
-		sentence = sentence.replaceFirst(Vernacularrrgh.PARTS_OF_SPEECH[i], Vernacularrrgh.get(Vernacularrrgh.PARTS_OF_SPEECH[i]));
+		    sentence = sentence.replaceFirst(Vernacularrrgh.PARTS_OF_SPEECH[i], Vernacularrrgh.get(Vernacularrrgh.PARTS_OF_SPEECH[i]));
 		}
 	    }
 	}
