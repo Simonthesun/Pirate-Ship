@@ -33,6 +33,10 @@ public class Vessel {
 	}
     }
     
+    public void addSailor(String name, boolean scallawag) {
+	_sailors.add(new Sailor(name, scallawag));
+    }
+    
     public Hull getHull() {
 	return _hull;
     }
