@@ -37,6 +37,10 @@ public class Vessel {
 	_sailors.add(new Sailor(name, scallawag));
     }
     
+    public void killSailor(String name, boolean scallawag) {
+	_sailors.remove(0);
+    }
+    
     public Hull getHull() {
 	return _hull;
     }
