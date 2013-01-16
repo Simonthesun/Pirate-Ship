@@ -8,20 +8,20 @@ package pirate.seamen.clothing;
  * @author Tyler
  */
 public class Hats {
-    private String shape = new String("");
+    private String _shape = new String("");
     
     public Hats(String sIncomming)
     {
-        shape = sIncomming;
+        _shape = sIncomming;
     }
     
     public String getShape()
     {
-        return shape;
+        return _shape;
     }
     
     public void newHat(String sIncomming)
     {
-        shape = sIncomming;
+        _shape = sIncomming;
     }
 }
