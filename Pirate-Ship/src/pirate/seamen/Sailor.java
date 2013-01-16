@@ -14,7 +14,7 @@ public class Sailor {
     public boolean isScallawag = false;
     
     public Sailor(String name, boolean scallawag){
-	this.name = name;
+	this.name = name + " the Pirate";
 	isScallawag = scallawag;
     }
     
