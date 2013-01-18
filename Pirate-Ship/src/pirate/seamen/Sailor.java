@@ -8,6 +8,7 @@ package pirate.seamen;
  *
  * @author Ben
  * @modified Ben 1/18/13 testing fetchingasdf
+ * ahoy-hoy
  */
 public class Sailor {
     
