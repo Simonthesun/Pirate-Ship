@@ -42,4 +42,10 @@ public class Parrot {
             return null;
         }
     }
+    
+    public String squawk() {
+        String squawk = "Squawk!";
+        
+        return squawk;
+    }
 }
