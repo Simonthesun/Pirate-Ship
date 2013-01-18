@@ -23,21 +23,23 @@ public class Parrot {
         talk = canTalk;
     }
     
-    public String talk {
+    public String talk() {
         String noise;
         
         if (canTalk = true) {
             if (Math.random() < 0.7) {
-                String noise = "Polly want a cracker!";
+                noise = "Polly want a cracker!";
             } else {
-                String noise = Vernacularrrgh.SENTENCES[(int)(Math.random() * Vernacularrrgh.SENTENCES.length)];
+                noise = Vernacularrrgh.SENTENCES[(int)(Math.random() * Vernacularrrgh.SENTENCES.length)];
                 for(int i = 0; i < Vernacularrrgh.PARTS_OF_SPEECH.length; i++){
                     while(noise.contains(Vernacularrrgh.PARTS_OF_SPEECH[i])) {//sentence.indexOf(name) > -1){
                         noise = noise.replaceFirst("\\([^)]*" + Vernacularrrgh.PARTS_OF_SPEECH[i] + "\\)", Vernacularrrgh.get(Vernacularrrgh.PARTS_OF_SPEECH[i]));
                     }
                 }
             }
+            return "Squawk!" + noise;
+        } else {
+            return null;
         }
-        return "Squawk!" + noise
     }
 }
