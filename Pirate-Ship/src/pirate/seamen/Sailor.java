@@ -7,6 +7,7 @@ package pirate.seamen;
 /**
  *
  * @author Ben
+ * @modified Ben 1/18/13 testing fetching
  */
 public class Sailor {
     
