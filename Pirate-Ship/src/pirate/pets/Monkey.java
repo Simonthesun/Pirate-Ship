@@ -30,7 +30,7 @@ public class Monkey {
     
     public void eatBanana() {
         if (this.stealLoot() == true) {
-            System.out.print("Nom nom nom!");
+            System.out.print("Nom nom nom");
         }
     }
 }
