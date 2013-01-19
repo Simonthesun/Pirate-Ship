@@ -14,8 +14,13 @@ public class Sailor {
     public boolean isScallawag = false;
     
     public Sailor(String name, boolean scallawag){
-	this.name = name + " the Pirate";
 	isScallawag = scallawag;
+        if (isScallawag == false) {
+            this.name = name + " the Pirate";
+        } else {
+            this.name = name + " the Scallawag";
+        }
+	
     }
     
     public String talkLikeAPirate(){

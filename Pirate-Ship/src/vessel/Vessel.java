@@ -29,7 +29,8 @@ public class Vessel {
     
     public void listenToSailors() {
 	for (int i = 0; i < _sailors.size(); i++) {
-	    System.out.println("Sailor " + i + " says: " + _sailors.get(i).talkLikeAPirate());
+            Sailor s = _sailors.get(i);
+	    System.out.println(s.name + " says: " + _sailors.get(i).talkLikeAPirate());
 	}
     }
     

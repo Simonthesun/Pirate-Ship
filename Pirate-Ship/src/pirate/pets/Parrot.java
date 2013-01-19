@@ -19,10 +19,10 @@ public class Parrot {
     public Parrot (String name, String owner, boolean talk) {
         this.name = name + " the Parrot";
         this.owner =  owner + "'s parrot";
-        talk = canTalk;
+        canTalk = talk;
     }
     
-    public String talk() {
+    public void talk() {
         String noise;
         
         if (canTalk = true) {
@@ -36,9 +36,7 @@ public class Parrot {
                     }
                 }
             }
-            return "Squawk!" + noise;
-        } else {
-            return null;
+            System.out.println (this.owner + " says: Squawk! " + noise);
         }
     }
     
