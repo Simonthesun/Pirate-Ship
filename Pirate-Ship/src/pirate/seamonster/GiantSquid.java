@@ -14,7 +14,13 @@ public class GiantSquid {
 	_length = length;
     }
     
-    public void kill(Vessel v) {
-	v.killSailor("Ben", true);
+    public void kill(Vessel v, String name) {
+	v.killSailor(name);
+        System.out.println ("A giant squid killed " + name + "!");
+    }
+    
+    public void destroyVessel(Vessel v) {
+            System.out.println ("The ship was destroyed by a giant squid! Everyone died.");
+            v.destroyShip(); 
     }
 }

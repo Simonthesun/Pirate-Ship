@@ -12,7 +12,7 @@ public class Vernacularrrgh {
     public static final String[] PARTS_OF_SPEECH = {"(N)", "(A)", "(I)"};
     public static final String[] NOUNS = {"Grog", "Pirate", "Loot", "Treasure", "Lubber", "Rum", "Hornpipe", "Scallawags", "Maiden", "Davy Jones' Locker", "Blaggard", "Poop Deck", "Wench", "Lass", "Bung Hole", "Darlin", "Parrot", "Matey", "Booty", "Cutlass", "Scabbard", "Britches", "Timbers", "Hull", "Vessel", "Poop Deck"};
     public static final String[] ADJECTIVES = {"Rum", "Rum-Bum", "Salty", "Swashbucklin", "Scurvy", "mush-mouthed", "Pustulant", "Savvy", "Saucy", "Bilge-sucking"};
-    public static final String[] INTERJECTIONS = {"Avast!", "Yo, ho, ho!", "Shiver Me Timbers!", "Arrrgh!", "ARRRGH!", "AAAAAAAAAAARGHGGHGHG!", "Ahoy!", "Aye!", "Show a Leg!"};
+    public static final String[] INTERJECTIONS = {"Avast!", "Yo, ho, ho!", "Shiver Me Timbers!", "Arrrgh!", "ARRRGH!", "AAAAAAAAAAARGGGGGHHH!", "Ahoy!", "Aye!", "Show a Leg!"};
     public static final String[] PICK_UP_LINES = {
 	"Avast, me proud beauty! Wanna know why my Roger is so Jolly?",
 	"Have ya ever met a man with a real yardarm?",
@@ -47,7 +47,9 @@ public class Vernacularrrgh {
 	"Yo, ho, ho! N' a bottl' a' (N)!",
 	"Arrrgh!  Why ye' be messin' with me (A) (N)!",
 	"(I) I been meanin' ta tell ye suthn'...  My (N) be (A)!",
-	"GitHub be (A)ier than a (A) (N)!"
+	"GitHub be (A)ier than a (A) (N)!",
+        "(I) The Adambots are as (A) as a (A) (N)!",
+        "Programmin' be (A)!"
     };
     
     public static String get(String type){

@@ -9,7 +9,7 @@ import pirate.seamen.Sailor;
  */
 public class Vessel {
     
-    private ArrayList<Sailor> _sailors;
+    public ArrayList<Sailor> _sailors;
     
     private Hull _hull;
     private String _name;
@@ -38,8 +38,17 @@ public class Vessel {
 	_sailors.add(new Sailor(name, scallawag));
     }
     
-    public void killSailor(String name, boolean scallawag) {
-	_sailors.remove(0);
+    public void killSailor(String name) {
+	for (int i = 0; i < _sailors.size(); i++) {
+            if (_sailors.get(i).name.equals(name)) {
+                _sailors.remove(i);
+            }
+        }
+    }
+    
+    public void destroyShip() {
+        _sailors.clear();
+        System.out.println ("The " + this._name + " sank!");
     }
     
     public Hull getHull() {
@@ -51,7 +60,7 @@ public class Vessel {
     }
     
     public int getPop() {
-	return _currentPop;
+	return _sailors.size();
     }
     
     public int getMaxPop() {

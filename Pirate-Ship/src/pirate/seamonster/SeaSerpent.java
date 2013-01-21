@@ -18,16 +18,13 @@ public class SeaSerpent {
         this.color = color;
     }
     
-    public boolean destroyVessel(Vessel v) {
-        if (v.getPop() < 10) {
-            v.killSailor("Ben", false);
-            v.killSailor("Steven", false);
-            v.killSailor("John", false);
-            v.killSailor("Tanay", true);
-            v.killSailor("Tyler", true);
-            return true;
-        } else {
-            return false;
-        }
+    public void kill(Vessel v, String name) {
+	v.killSailor(name);
+        System.out.println ("A sea serpent killed " + name);
+    }
+    
+    public void destroyVessel(Vessel v) {
+            System.out.println ("The ship was destroyed by a sea serpent! Everyone died.");
+            v.destroyShip();
     }
 }
