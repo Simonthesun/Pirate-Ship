@@ -47,4 +47,9 @@ public class Parrot {
         
         return squawk;
     }
+    
+    public void fly(){
+        System.out.println("This parrot is flying");
+    }
+    
 }
